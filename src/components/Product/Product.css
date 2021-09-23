@@ -8,3 +8,11 @@
   color: blue;
   font-weight: 400;
 }
+.btn-regular {
+  background-color: rgb(243, 183, 33);
+  width: 200px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
