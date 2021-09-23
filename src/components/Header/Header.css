@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+}
+.logo {
+  height: 80px;
+  padding-bottom: 20px;
+}
+.nav-menu {
+  text-align: left;
+  background-color: black;
+  line-height: 40px;
+  padding: 0 40px;
+}
+.nav-menu a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+}
+.nav-menu a:hover {
+  background-color: lightgrey;
+}
+
+.search-field {
+  background-color: rgba(0, 0, 0, 0.856);
+  padding: 20px;
+}
+.search-field input {
+  width: 80%;
+  padding: 5px;
+}
