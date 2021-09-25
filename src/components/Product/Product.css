@@ -4,6 +4,12 @@
   margin-right: 5px;
   padding: 20px;
 }
+.product-img {
+  padding: 10px;
+  margin-right: 40px;
+  box-shadow: 5px 5px 20px 3px gray;
+  border-radius: 5px;
+}
 .product-name {
   color: blue;
   font-weight: 400;
@@ -15,4 +21,7 @@
   border: 1px solid gray;
   border-radius: 5px;
   cursor: pointer;
+}
+.icon-color {
+  color: rgb(243, 183, 33);
 }

@@ -1,0 +1,31 @@
+.cart {
+  border: 1px solid rgb(126, 125, 125);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: lightgrey;
+  box-shadow: 5px 5px 10px 3px gray;
+  margin: 20px;
+  position: sticky;
+  top: 0;
+}
+.order-summary {
+  color: orangered;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+}
+.grand-total {
+  color: rgb(146, 47, 11);
+}
+.review-order-btn-container {
+  text-align: center;
+}
+.review-order-btn {
+  outline: 0;
+  background-color: gold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}

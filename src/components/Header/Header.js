@@ -11,10 +11,7 @@ const Header = () => {
                 <a href="/order">Order Review</a>
                 <a href="/inventory">Manage Inventory Here</a>
             </nav>
-            <div className="search-field">
-                <input type="text" placeholder="Type here to search" />
 
-            </div>
         </div>
     );
 };

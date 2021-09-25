@@ -1,3 +1,14 @@
+.search-field {
+  background-color: rgba(0, 0, 0, 0.856);
+  text-align: center;
+}
+.search-field input {
+  width: 80%;
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
+  outline: 0;
+}
 .shop-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
