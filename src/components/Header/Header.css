@@ -1,23 +1,20 @@
-.header {
-  text-align: center;
+.header{
+    text-align: center;
 }
-.logo {
-  height: 80px;
-  padding-bottom: 20px;
+.logo{
+    height: 50px;
 }
-.nav-menu {
-  text-align: left;
-  background-color: black;
-  line-height: 40px;
-  padding: 0 40px;
+.header nav {
+    background-color: black;
+    line-height: 40px;
 }
-.nav-menu a {
-  text-decoration: none;
-  margin-right: 20px;
-  color: white;
-  font-size: 18px;
-  padding: 8px;
+.header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
 }
-.nav-menu a:hover {
-  background-color: lightgrey;
+.header nav a:hover{
+    background-color: lightgray;
 }

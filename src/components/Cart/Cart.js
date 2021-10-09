@@ -1,10 +1,10 @@
 import React from 'react';
-import './Cart.css'
+import './Cart.css';
 
 const Cart = (props) => {
-
     const { cart } = props;
-
+    // const totalReducer = (previous, product) => previous + product.price;
+    // const total = cart.reduce(totalReducer, 0);
     let totalQuantity = 0;
     let total = 0;
     for (const product of cart) {
@@ -14,25 +14,19 @@ const Cart = (props) => {
         total = total + product.price * product.quantity;
         totalQuantity = totalQuantity + product.quantity;
     }
-    // const reducer = (previous, product)=> previous + product.price;
-    // const total = cart.reduce((previous, product) => previous + product.price, 0);
 
-    const shipping = total > 0 ? 20 : 0;
-    const tax = (total + shipping) * 0.10
+    const shipping = total > 0 ? 15 : 0;
+    const tax = (total + shipping) * 0.10;
     const grandTotal = total + shipping + tax;
-
     return (
-        <div className="cart">
-            <h3 className="order-summary">Order Summary</h3>
-            <h4>Items Ordered: {totalQuantity}</h4>
-            <h4>Total Price: ${total.toFixed(2)}</h4>
-            <h5>Shipping Charge: ${shipping}</h5>
-            <h5>Tax: ${tax.toFixed(2)}</h5>
-            <h2 className="grand-total">Grand Total: ${grandTotal.toFixed(2)}</h2>
-            <div className="review-order-btn-container">
-                <button className="review-order-btn">Review Order</button>
-            </div>
-
+        <div>
+            <h3>Order Summary</h3>
+            <h5>Items Ordered: {totalQuantity}</h5>
+            <br />
+            <p>Total: {total.toFixed(2)}</p>
+            <p>Shipping: {shipping}</p>
+            <p>tax: {tax.toFixed(2)}</p>
+            <p>Grand Total: {grandTotal.toFixed(2)}</p>
         </div>
     );
 };
